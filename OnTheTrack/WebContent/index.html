@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang ="en">
+<!-- AIzaSyC4YBjWD5XfL_o87gD9kGWnBQQb_96pa_Y  -->
+<head>
+	<meta charset="UTF-8" >
+	
+	<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4YBjWD5XfL_o87gD9kGWnBQQb_96pa_Y&sensor=false">
+	
+	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+	
+	<link rel="stylesheet" type="text/css" href="Styles.css" media="screen" />
+	<script src="JavaScript/Func.js" type="text/javascript">
+		
+	</script>
+		<script>
+		
+	</script>
+	<title>Insert title here</title>
+	
+</head>
+<body>
+<div id='map-canvas'></div>
+<div id="textcontainer">
+<button onclick="newRound()">GET ME A VIEW OF A STREETVIEW</button>
+		<form name="guessform" action="">
+			Staden du tror: <input type="text" name="txtCityGuess"><br>
+			<input type="button" name="btnSubmitAnswer" id="btnSubmit" value ="Detta blir min gissning"
+				onClick="checkAnswer(this.guessform)">
+			</form>
+</div>
+<p>Du har <span id="countdown"></span> sekunder på dig annars torskar du.</p>
+
+<div id="testDiv">&nbsp;</div>
+
+
+			
+	
+	
+
+</body>
+</html>
+

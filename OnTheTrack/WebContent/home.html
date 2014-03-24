@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>På Gatan</title>
+
+<style type="text/css">
+h1 {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;   
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+body{
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+
+.introText{
+
+}
+#leo{
+
+        width: 60%;
+        height: 200px;
+        float: right;
+}
+#trutt{
+
+	padding:10px;
+	border:5px solid gray;
+	margin:0px;
+	margin:0auto;
+	width:45%;
+	float: center;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+}
+#title{
+
+	font-size: 150px;
+	text-shadow: silver;
+	padding-left: 300px;
+	
+}
+#storDiv{
+
+	padding-left:300px;
+	width: 70%;
+	float: center;
+}
+.timer{
+	
+}
+
+
+</style>
+</head>
+<body>
+
+<H1 id = "title">På Gatan</H1>
+<h2 id="ticker" class="timer">här ska det tickas</h2>
+
+<div id="storDiv">
+
+	<div id="leo"> 
+	 	<img src="http://i.imgur.com/27yGr.png%22%20alt=%22%22%20title=%22Hosted%20by%20imgur.com" width="200px"></img>
+	 </div>
+
+	<div id="trutt">
+
+		<h2> Välkommen!</h2>
+
+		<p class = "introText">Nu är du på startsidan för Albin och Ludvigs extremt storskaliga webbapplikation
+		 till kursen Storskaliga WebbApplikationer.</p>
+		 <h2>Spelet:</h2>
+		 <p class = "introText">
+		 	Spelet heter "På Gatan" eller "WhereDafuqAmI??", du får själv välja vad du vill
+		 	kalla skiten. Men iallafall!
+		 	Du får även välja vilken roll du vill axla / Hur du vill se på spelet:</p>
+			 <ul>
+			 	<li>
+			 		Nyvaken och bakfull jävla 22 åring som inte vet var han festade igår.
+			 	</li>
+			 	<li>
+			 		Femårig flicka från Härjedalen som tappat sin familj och deras turistgrupp.
+			 	</li>
+			 	<li>
+			 		En buggtestare/webbkunnig stjärtpirat som hatar på vår HTML och Javascript...
+			 	</li>
+			 	<li>
+			 		Klassisk spelhjälte med minnesförlust. +2 i originalitet.
+			 	</li>
+			 	<li>
+			 		Gammal tant som gillar Ingvar Oldsberg.
+			 	</li>
+			 </ul>
+		 
+		 <p class = "introText">
+			 När du öppnar ögonen inser du att du inte har någon som helst
+			 jävla aning om var du är. Det enda du har är din HuD/Smartphone/Journal/Svaga minnen<br>
+			 eller nån bra anledning till varför du får *host*välfiltrerad.. information som
+			 liknar wikipedia.
+			 <br><br>
+			 Du har iallafall 1 minut på dig att lista ut i vilken stad du är utifrån informationen<br> som poppar
+			  upp samt möjligheten att gå runt på kartan inom tidsramen.
+			  Hinner du inte... Well..
+			  <br>
+			  Prepare for unforseen consequenses...
+		 </p>
+		 
+		 <!-- Måste fixa directorylänk -->
+		 <Button id = "btn_start" onclick="location.href='index.html'">
+		 	Starta!
+		 </Button>
+		 <Button id = "btn_startTimer" onclick="timer()">
+		 	Starta timer
+		 </Button>
+	 </div>
+
+	 
+
+ </div>
+
+
+</body>
+</html>

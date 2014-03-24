@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+#map-canvas {
+		
+		margin-right:0px;
+		padding: 0px;
+		padding-top: 20px;
+		padding-right: 20px;
+		height: 100%;
+		width:75%;
+		float:right
+	}
+	html, body, container {
+    height:100%;
+	width:100%;
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+textcontainer, testDiv{
+width:25%;
+height: 75%;
+float:left;
+}
